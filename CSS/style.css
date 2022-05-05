@@ -11,11 +11,12 @@ html {
     font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
 }
 
+   
 /*
  MENU
 */
 nav {
-    background-color: #D9B2A9;
+    background-color: #16334e;
     color: #F2F2F2;
     padding: 0 15px;
     height: 75px;
@@ -38,7 +39,7 @@ nav ul li a:hover {
 }
 
 nav ul.menu {
-    background: #2A708C;
+    background: #ecbc84;
     position: absolute;
     top: 75px;
     left: 0;
@@ -71,7 +72,7 @@ nav ul.button li {
 }
 
 nav ul.button:hover li {
-    background: #2A708C;
+    background: D;
     transition: 0.5s;
 }
 
@@ -81,10 +82,12 @@ Banner
 .img-banner{
     width: 100%;
     height: 650px;
-    opacity: 50%;
+    /*opacity: 50%;*/
+    filter: brightness(50%);
     margin: 0%;
     padding: 0%;
     position: absolute;
+    
 }
 
 #banner-txt {
@@ -92,9 +95,10 @@ Banner
     font-size: 30px;
     text-align: center;
     padding-top: 20%;
-    text-shadow: 0.1em 0.1em 0.2em #D9B2A9;
+    text-shadow: 0.1em 0.1em 0.2em #24211d;
     text-align-last: center;
     position: relative;
+    
 }
 
 /*
@@ -109,9 +113,10 @@ section {
     margin-top: 40%;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: D;
+    text-shadow: 0.1em 0.1em 0.2em #ecbc84;
     font-size: 40px;
-    color: #2A708C;
-    text-shadow: 0.1em 0.1em 0.2em #D9B2A9;
 }
 /* sub-título */
 #sec-h3 {
@@ -120,8 +125,8 @@ section {
     margin-left: 3%;
     margin-right: 3%;
     text-align: justify;
-    background-color: #D9B2A9;
-    box-shadow: 0.1em 0.1em 0.2em #D9B2A9;
+    background-color: #ecbc84;
+    box-shadow: 0.1em 0.1em 0.2em #ecbc84;
 }
 article {
     border-radius: 8px;
@@ -150,9 +155,9 @@ dica 01
 
 #mesada {
     text-align: center;
-    color: #D9B2A9;
-    text-shadow: 0.1em 0.1em 0.2em #000000cb;
-}
+    font-size: 25px;
+    color: D;
+    text-shadow: 0.1em 0.1em 0.2em #ecbc84;}
 
 #img-dica01 {
     width: 30%;
@@ -166,7 +171,7 @@ dica 01
 dica 02
 */
 #dica02-box{
-    background-color: #2A708C;
+    background-color: #16334e;
     border-radius: 10px;
     box-shadow: 0.1em 0.1em 0.2em #696969cb;
     color: #F2F2F2;
@@ -178,6 +183,10 @@ dica 02
     text-align: center;
     margin-left: 2%;
     margin-right: 2%;
+    font-size: 25px;
+    color: D;
+    text-shadow: 0.1em 0.1em 0.2em #ecbc84;
+
 }
 
 /*
@@ -195,14 +204,17 @@ dica03
     height: 25vh;
     margin-top: 10%;
     margin-bottom: 10%;
+    
+    
 }
 
 #objetivos {
     text-align: center;
-    color: #D9B2A9;
-    text-shadow: 0.1em 0.1em 0.2em #000000cb;
-
+    color: D;
+    text-shadow: 0.1em 0.1em 0.2em #0b233a;
+    font-size: 25px;
 }
+
 
 #dica03 {
     text-align: center;
@@ -216,10 +228,10 @@ dica03
 dica04
 */
 #dica04-box{
-    background-color: #D9B2A9;
+    background-color: #ecbc84;
     border-radius: 10px;
     box-shadow: 0.1em 0.1em 0.2em #696969cb;
-    color: #2A708C;
+    color: #0b233a;
     padding: 2%;
     margin: 2%;
 }
@@ -228,6 +240,10 @@ dica04
     text-align: center;
     margin-left: 2%;
     margin-right: 2%;
+    color: black;
+    text-shadow: 0.1em 0.1em 0.2em #ecbc84;
+    font-size: 25px;
+    
 }
 
 /*
@@ -244,8 +260,8 @@ dica 05
 
 #ens-brinc {
     text-align: center;
-    color: #D9B2A9;
-    text-shadow: 0.1em 0.1em 0.2em #000000cb;
+    color: #0b233a;
+    text-shadow: 0.1em 0.1em 0.2em #ecbc84;
 }
 
 #img-dica05 {
@@ -261,24 +277,27 @@ dica 05
     margin-left: 2%;
     margin-right: 2%;
     font-size: max(11px, 1.5vw) ;
+    
 }
 
 /*
 dica06
 */
 #dica06-box{
-    background-color: #2A708C;
+    background-color: #16334e;
     border-radius: 10px;
     box-shadow: 0.1em 0.1em 0.2em #696969cb;
     color: #F2F2F2;
     margin: 2%;
     padding: 2%;
+    
 }
 
 #dica06 {
     text-align: center;
     margin-left: 2%;
     margin-right: 2%;
+    text-shadow: 0.1em 0.1em 0.2em #ecbc84;
 }
 
 /* ARTIGOS EXTRAS */
@@ -286,12 +305,12 @@ dica06
     width: 100%;
     height: 450px;
     padding: 2%;
-    background-color: #2A708C;
+    background-color: #16334e;
     align-self: center;
     color: #F2F2F2;
     text-align: center;
     font-size: 30px;
-    text-shadow: 0.1em 0.1em 0.2em #141414;
+    text-shadow: 0.1em 0.1em 0.2em #0b233a;
 }
 
 .box {
@@ -305,22 +324,22 @@ dica06
 }
 
 #div1 {
-    background-color: #D9B2A9;
+    background-color: #ecbc84;
     position:relative;
     margin: 0.7%;
 }
 #div2 {
-    background-color: #D9B2A9;
+    background-color: #ecbc84;
     position:relative;
     margin: 0.7%;
 }
 #div3 {
-    background-color: #D9B2A9;
+    background-color: #ecbc84;
     position:relative;
     margin: 0.7%;
 }
 #div4 {
-    background-color: #D9B2A9;
+    background-color: #ecbc84;
     position:relative;
     margin: 0.7%;
 }
@@ -330,10 +349,12 @@ Roda-pé
 */
 #footer {
     margin-top: 3%;
-    background-color: #D9B2A9;
-    height: 25vh;
+    background-color: #ecbc84;
+    height: 150px;
     text-align:center;
     color: #F2F2F2;
     bottom: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
