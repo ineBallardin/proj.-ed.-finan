@@ -120,7 +120,7 @@ section {
     margin-left: 3%;
     margin-right: 3%;
     text-align: justify;
-    background-color: #D9B2A9
+    background-color: #D9B2A9;
     box-shadow: 0.1em 0.1em 0.2em #D9B2A9;
 }
 article {
@@ -131,13 +131,19 @@ article {
 dica 01
 */
 
-#dica01 {
+#dica01-box {
     height: 25vh;
     text-align: center;
     margin-top: 15%;
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 10%;
+}
+
+#dica01 {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #mesada {
@@ -183,7 +189,7 @@ dica03
     border-radius: 8px;
 }
 
-#dica03 {
+#dica03-box {
     height: 25vh;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -193,6 +199,13 @@ dica03
     text-align: center;
     color: #D9B2A9;
     text-shadow: 0.1em 0.1em 0.2em #000000cb;
+
+}
+
+#dica03 {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 /*
@@ -216,7 +229,7 @@ dica04
 /*
 dica 05
 */
-#dica05 {
+#dica05-box {
     height: 25vh;
     text-align: center;
     margin-top: 15%;
@@ -237,6 +250,12 @@ dica 05
     margin-left: 1%;
     border-radius: 8px;
     box-shadow: 0.1em 0.1em 0.2em #696969cb;
+}
+
+#dica05 {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 /*
@@ -312,3 +331,4 @@ Roda-pé
     color: #F2F2F2;
     bottom: 0;
 }
+
