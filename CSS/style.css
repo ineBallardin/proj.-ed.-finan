@@ -301,7 +301,7 @@ dica06
     text-shadow: 0.1em 0.1em 0.2em #ecbc84;
 }
 
-/* ARTIGOS EXTRAS */
+/* VÍDEOS SLIDER */
 #slider {
     margin: 0 auto;
     margin-bottom: 8%;
@@ -369,6 +369,12 @@ dica06
 #radio4:checked ~ .first {
     margin-left: -75%;
 }
+#radio5:checked ~ .first {
+    margin-left: -100%;
+}
+#radio6:checked ~ .first {
+    margin-left: -125%;
+}
 
 .navigation-auto div {
     border: 2px solid #ecbc84;
@@ -400,6 +406,12 @@ dica06
     background-color: #ecbc84;
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: #ecbc84;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background-color: #ecbc84;
+}
+#radio6:checked ~ .navigation-auto .auto-btn6{
     background-color: #ecbc84;
 }
 
