@@ -26,7 +26,7 @@ setInterval(function() {
         fotoAtual = 0
     }
     altImg(fotoAtual)
-}, 5000)
+}, 7000)
 
 
 // criando a função que altera as imagens
