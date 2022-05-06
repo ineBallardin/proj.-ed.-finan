@@ -84,13 +84,12 @@ Banner
 */
 .img-banner{
     width: 100%;
-    height: 50%;
+    height: 100%;
     /*opacity: 50%;*/
     filter: brightness(50%);
     margin: 0%;
     padding: 0%;
     position: absolute;
-    
 }
 
 #banner-txt {
@@ -112,6 +111,7 @@ section {
     width: 100%;
     border-radius: 8px;
     position: relative;
+    display:inline-table;
     margin: 20% auto;
     font-family: 'Abril Fatface', cursive;
 }
@@ -120,6 +120,7 @@ section {
 #sec-h1 {
     position: relative;
     text-align: center;
+    margin: 15% 2% 2% 2%;
     color: #16334e;
     text-shadow: 0.1em 0.1em 0.2em #ecbc84;
     font-size: 40px;
@@ -129,6 +130,7 @@ section {
 #sec-h3 {
     font-family: 'Roboto', sans-serif;
     padding: 2%;
+    position: relative;
     border-radius: 8px;
     text-align: justify;
     background-color: #ecbc84;
@@ -167,24 +169,32 @@ h1 {
     color: #F2F2F2;
     border-radius: 8px;
     padding: 1px;
-    margin: 2% 2% 20% 2%;
+    margin: 2%;
+}
+article {
+    display:inline-table;
+    margin: 2%;
+    padding: 2%;
 }
 
-#img-dica01{    
+
+#img-dica01{
+    display: flex;
     position: relative;
     width: 45%;
-    margin: auto 2%;
-    border-radius: 6px;}
+    margin: 2%;
+    border-radius: 6px;
+}
 #img-dica03{
     position: relative;
-    width: 45%;
-    margin: auto 2%;
+    width: 35%;
+    margin: 2%
     border-radius: 6px;
 }
 #img-dica05{    
     position: relative;
     width: 25%;
-    margin: auto 15%;
+    margin: 2% 15%;
     border-radius: 6px;}
 
 /* VÍDEOS SLIDER */
