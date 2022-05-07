@@ -30,15 +30,22 @@ nav {
 
 nav ul li {
     list-style: none;
+    
 }
 
 nav ul li a {
     text-decoration: none;
     color: #F2F2F2;
+    float: right;
+    padding: 10px 10px;
+    border-radius: 3px;
+
 }
 
 nav ul li a:hover {
     text-decoration: underline;
+    background-color:#16334e;
+    text-decoration: none
 }
 
 nav ul.menu {
@@ -192,14 +199,14 @@ article {
 }
 #img-dica03{
     position: relative;
-    width: 35%;
+    width: 33%;
     margin: 2%
     
 }
    
 #img-dica05{    
     position: relative;
-    width: 25%;
+    width: 20%;
     margin: 2% 15%;
     border-radius: 6px;}
 
@@ -287,12 +294,18 @@ Roda-pé
 */
 .rodape{
     width: 100%;
-    float: left;
     
-    background-color: #0b233a;
+    
+    background-color: #16334e;
     text-align: center;
     display: flex;
     justify-content: center;
     height: 4rem;
     color: white;
+}
+#igmfooter{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
 }
