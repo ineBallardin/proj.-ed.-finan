@@ -248,7 +248,7 @@ article {
     width: 50px;
     height: 17px;
     border: 2px solid #0b233a;
-    background-color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.37);
     margin: 5px;
     border-radius: 5px;
     cursor: pointer;
