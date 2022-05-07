@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-
-* {
+body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /*height: 100vh;
+    width: 100vw;*/
 }
 
 html {
@@ -82,6 +82,11 @@ nav ul.button:hover li {
 /*
 Banner
 */
+#banner {
+    height: 100vh;
+    width: 100%;
+}
+
 .img-banner{
     width: 100%;
     height: 100%;
@@ -120,7 +125,7 @@ section {
 #sec-h1 {
     position: relative;
     text-align: center;
-    margin: 15% 2% 2% 2%;
+    margin: 2%;
     color: #16334e;
     text-shadow: 0.1em 0.1em 0.2em #ecbc84;
     font-size: 40px;
@@ -189,8 +194,9 @@ article {
     position: relative;
     width: 35%;
     margin: 2%
-    border-radius: 6px;
+    
 }
+   
 #img-dica05{    
     position: relative;
     width: 25%;
@@ -198,130 +204,95 @@ article {
     border-radius: 6px;}
 
 /* VÍDEOS SLIDER */
-#slider {
-    margin: 0 auto;
-    margin-bottom: 8%;
-    width: 550px;
-    height: 450px;
+
+
+.content {
+    height: 320px;
+    width: 560px;
+    border-radius: 20px;
     overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0.4em 0.4em 0.8em 0.4em #0b233acb;
+    
 }
 
-.slides {
-    width: 410%;
-    height: 400px;
+.navigation {
+    position: absolute;
+    bottom: 11px;
+    left: 50%;
+    transform: translate(-50%);
     display: flex;
 }
 
-.slides input {
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #0b233a;
+    background-color: aliceblue;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bar:hover {
+    background-color: #0b233a;
+    transition: 0.6s;
+}
+
+input {
     display: none;
 }
 
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
 .slide {
-    width: 50%;
-    position: relative;
+    width: 20%;
+    transition: 0.6s;
 }
 
 .slide iframe {
-    width: 550px;
+    width: 100%;
+    height: 100%;
 }
 
-.video iframe{
-    box-shadow: 0.1em 0.1em 0.2em #0b233acb;
-    border-radius: 8px;
-}
-.nav-manual {
-    position: absolute;
-    width: 550px;
-    margin-top: -70px;
-    display: flex;
-    justify-content: center;
-}
-
-.btn-manual {
-    border: 2px solid #0b233a;
-    padding: 5px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.btn-manual:not(last-child) {
-    margin-right: 40px;
-}
-
-.btn-manual:hover {
-    background-color: #0b233a;
-}
-
-#radio1:checked ~ .first {
+#slide1:checked ~ .first{
     margin-left: 0;
 }
-#radio2:checked ~ .first {
-    margin-left: -25%;
-}
-#radio3:checked ~ .first {
-    margin-left: -50%;
-}
-#radio4:checked ~ .first {
-    margin-left: -75%;
-}
-#radio5:checked ~ .first {
-    margin-left: -100%;
-}
-#radio6:checked ~ .first {
-    margin-left: -125%;
+
+#slide2:checked ~ .first{
+    margin-left: -20%;
 }
 
-.navigation-auto div {
-    border: 2px solid #ecbc84;
-    padding: 5px;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: 1s;
+#slide3:checked ~ .first{
+    margin-left: -40%;
 }
 
-.navigation-auto {
-    position: absolute;
-    width: 550px;
-    margin-top: 330px;
-    display: flex;
-    justify-content: center;
+#slide4:checked ~ .first{
+    margin-left: -60%;
 }
 
-.navigation-auto div:not(last-child) {
-    margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background-color: #ecbc84;
-}
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background-color: #ecbc84;
-}
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background-color: #ecbc84;
-}
-#radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: #ecbc84;
-}
-#radio5:checked ~ .navigation-auto .auto-btn5{
-    background-color: #ecbc84;
-}
-#radio6:checked ~ .navigation-auto .auto-btn6{
-    background-color: #ecbc84;
+#slide5:checked ~ .first{
+    margin-left: -80%;
 }
 
 /*
 Roda-pé
 */
-#footer {
-    margin-top: 3%;
-    background-color: #ecbc84;
-    height: 150px;
-    text-align:center;
-    color: #F2F2F2;
-    bottom: 0;
+.rodape{
+    width: 100%;
+    float: left;
+    
+    background-color: #0b233a;
+    text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    height: 4rem;
+    color: white;
 }
-
