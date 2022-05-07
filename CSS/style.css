@@ -94,8 +94,10 @@ nav ul.button:hover li {
 Banner
 */
 #banner {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .img-banner{
@@ -112,8 +114,11 @@ Banner
     color: #F2F2F2;
     font-size: 30px;
     text-align: center;
-    padding-top: 10%;
     text-shadow: 0.1em 0.1em 0.2em #0b233a;
+    padding: 1%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align-last: center;
     position: relative;
     font-family: 'Abril Fatface', cursive;
@@ -128,7 +133,7 @@ section {
     border-radius: 8px;
     position: relative;
     display:inline-table;
-    margin: 20% auto;
+    margin: 25% auto auto auto;
     font-family: 'Abril Fatface', cursive;
 }
 
@@ -218,9 +223,9 @@ article {
 
 
 .content {
-    height: 320px;
-    width: 100%;
-
+    height: 420px;
+    max-width: 70%;
+    margin-top: 15%;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
@@ -240,11 +245,11 @@ article {
 }
 
 .bar {
-    width: 70px;
+    width: 50px;
     height: 17px;
     border: 2px solid #0b233a;
     background-color: aliceblue;
-    margin: 6px;
+    margin: 5px;
     border-radius: 5px;
     cursor: pointer;
 }
