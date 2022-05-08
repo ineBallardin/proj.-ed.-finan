@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
+<head id="header">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,15 +11,15 @@
 </head>
 
 <body>
-    <!-- MENU -->
     <header>
-        <nav>
-            <img src="/Imagens/favicon.png" alt="Logo do site" height="60px" id="icon">
-            <ul class="menu">
-                <li><a href="#dicas">Início</a></li>
+        <!-- MENU -->
+        <nav class="nav-ativa">
+            <img src="/Imagens/favicon.png" alt="Logo do site" height="60px" id="icon"> <!-- Logo -->
+            <ul class="menu"> 
+                <!-- Submenu -->
+                <li><a href="#banner">Início</a></li>
                 <li><a href="#sec-h1">Dicas</a></li>
-                <li><a href="#Videos">Videos</a></li>
-                <li><a href="#rodape">Contato</a></li>
+                <li><a href="#vid-h1">Videos</a></li>
             </ul>
             <ul class="button">
                 <li></li>
@@ -27,19 +27,19 @@
                 <li></li>
             </ul>
         </nav>
-               
+    </header>
+    
     <!-- Intro -->
     <div id="banner">
-    <img src="/Imagens/img01.jpg" alt="" class="img-banner">
+        <img src="/Imagens/img01.jpg" alt="" class="img-banner">
         <div id="banner-txt">
             <h1>Educação financeira desde o início!</h1>
             <p>A melhor maneira de aprender a se organizar financeiramente é ensinar alguém a fazer isso.</p>
             <p>Que tal começar com seus filhos?</p>
-
+        
         </div>
     </div>
     <script src="/JS/script.js"></script>
-    </header>
 
     <!-- DICAS -->
     
@@ -78,7 +78,6 @@
                 O cofrinho e a semanada são ótimos recursos para ajudar a criança a compreender o resultado de seu esforço e gerenciar o dinheiro que recebe, mas é fundamental que ela realmente conquiste o que deseja.
                 Não adianta dar um cofrinho e um valor semanal para a criança e continuar comprando tudo que ela pede, enquanto ela guarda o dinheiro dela. A criança precisa sentir a frustração de deixar o doce de lado para juntar o valor suficiente para seu objetivo. Só assim, terá a satisfação da conquista.
                 </p>
- 
         </article>
 
         <!-- DICA 04 -->
@@ -106,7 +105,7 @@
 <br>
 <br>
     <!-- SLIDER -->
-    <div> 
+    <div id="vid-h1"> 
         <h1>Vídeos</h1><br><br>
     </div>
     <div class="content" id="Videos">
@@ -146,11 +145,6 @@
 
 
 
-
-
-
-
-
     <!-- FOOTER -->
     <footer  class="rodape" id="rodape">
         <div id:igmfooter><img src="/Imagens/favicon.png" alt="Logo do site" height="60px" id="icon">  </div>
@@ -158,9 +152,6 @@
             Copyright © GRUPO41 2022. Todos os direitos reservados.
         </p>
     </footer>
-
-
-
 
 </body>
 </html>
