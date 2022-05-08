@@ -19,4 +19,4 @@ HTML, CSS e JavaScript
 - Marcelo
 - Vitor
 - Samyra
-- Thiago Alves [LinkedIn](https://www.linkedin.com/in/allves/)
+- Thiago Alves | [LinkedIn](https://www.linkedin.com/in/allves/)
