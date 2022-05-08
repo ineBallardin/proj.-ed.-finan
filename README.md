@@ -12,6 +12,19 @@ HTML, CSS e JavaScript
 
 ## Imagens
 
+### Home page
+![Homepage image](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/01.png)
+
+### Overview
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/07.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/02.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/03.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/04.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/05.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/06.png)
+
+
+
 ## Equipe
 
 - Karine Ballardin
@@ -19,4 +32,4 @@ HTML, CSS e JavaScript
 - Marcelo
 - Vitor
 - Samyra
-- Thiago Alves | [LinkedIn](https://www.linkedin.com/in/allves/)
+- Thiago Alves [LinkedIn](https://www.linkedin.com/in/allves/)
