@@ -13,7 +13,7 @@ HTML, CSS e JavaScript
 ## Imagens
 
 ### Home page
-![Homepage image](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/01.png)
+![Homepage image](Imagens/img-readme/01.png)
 
 ### Overview
 ![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/07.png)
