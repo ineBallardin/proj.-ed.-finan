@@ -8,7 +8,7 @@ Educação Financeira -  Como podemos ajudar os brasileiros a se organizarem em 
 
 ## O que foi utilizado?
 
-HTML, CSS e JavaScript
+HTML, CSS, JavaScript e Netfly (hospedagem)
 
 ## Imagens
 
@@ -37,4 +37,4 @@ HTML, CSS e JavaScript
 
 [![Gitub Badget](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&linkhttps://github.com/samyrafariass)](https://github.com/samyrafariass) Samyra Farias
 
-[![Gitub Badget](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&linkhttps://github.com/allvesdev)](https://github.com/allvesdev) Thiago Alves [LinkedIn](https://www.linkedin.com/in/allves/)
+[![Gitub Badget](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&linkhttps://github.com/allvesdev)](https://github.com/allvesdev) Thiago Alves
