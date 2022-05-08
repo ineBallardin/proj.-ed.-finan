@@ -13,23 +13,28 @@ HTML, CSS e JavaScript
 ## Imagens
 
 ### Home page
-![Homepage image](Imagens/img-readme/01.png)
+![Homepage image](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/01.png)
 
 ### Overview
-![Post show](Imagens/img-readme/07.png)
-![Post show](Imagens/img-readme/02.png)
-![Post show](Imagens/img-readme/03.png)
-![Post show](Imagens/img-readme/04.png)
-![Post show](Imagens/img-readme/05.png)
-![Post show](Imagens/img-readme/06.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/07.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/02.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/03.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/04.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/05.png)
+![Post show](https://github.com/ineBallardin/proj.-ed.-finan/blob/main/Imagens/img-readme/06.png)
 
 
 
 ## Equipe
 
-- Karine Ballardin
-- Jasmin
-- Marcelo
-- Vitor
-- Samyra
-- Thiago Alves [LinkedIn](https://www.linkedin.com/in/allves/)
+[![Gitub Badget](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&linkhttps://github.com/ineBallardin)](https://github.com/ineBallardin) Karine Ballardin
+
+[![Gitub Badget](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&linkhttps://github.com/Jassminand)](https://github.com/Jassminand) Jasmin Cordeiro
+
+[![Gitub Badget](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&linkhttps://github.com/Marcelos161)](https://github.com/Marcelos161) Marcelo
+
+[![Gitub Badget](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&linkhttps://github.com/VictorBFreitas)](https://github.com/VictorBFreitas) Victor B Freitas
+
+[![Gitub Badget](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&linkhttps://github.com/samyrafariass)](https://github.com/samyrafariass) Samyra Farias
+
+[![Gitub Badget](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&linkhttps://github.com/allvesdev)](https://github.com/allvesdev) Thiago Alves [LinkedIn](https://www.linkedin.com/in/allves/)
